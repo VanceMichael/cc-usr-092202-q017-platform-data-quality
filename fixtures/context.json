@@ -1,0 +1,42 @@
+{
+  "domain": "platform-data-quality",
+  "version": 1,
+  "sample_id": "public-sample-017",
+  "actors": [
+    "数据报送单位",
+    "统计分析人员",
+    "口径审查人员",
+    "公开发布人员"
+  ],
+  "facts": [
+    "消费统计同时覆盖商品和服务零售",
+    "商品类别和服务类别增速存在明显差异",
+    "部分指标来自重点平台等补充数据来源"
+  ],
+  "constraints": [
+    "报送质量声明",
+    "类目映射审查",
+    "异常核查工单",
+    "可用范围批准"
+  ],
+  "records": [
+    {
+      "id": "platform-data-quality-source",
+      "kind": "source",
+      "label": "消费统计同时覆盖商品和服务零售",
+      "status": "active"
+    },
+    {
+      "id": "platform-data-quality-review",
+      "kind": "review",
+      "label": "报送质量声明",
+      "status": "pending"
+    },
+    {
+      "id": "platform-data-quality-history",
+      "kind": "history",
+      "label": "部分指标来自重点平台等补充数据来源",
+      "status": "historical"
+    }
+  ]
+}
