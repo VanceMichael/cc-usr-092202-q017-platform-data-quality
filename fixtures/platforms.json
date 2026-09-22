@@ -1,0 +1,66 @@
+{
+  "platforms": [
+    {
+      "platform_id": "P-AIWEAR",
+      "name": "智携科技平台",
+      "contact_unit": "智携科技数据报送组",
+      "api_version": "v3",
+      "status": "active",
+      "covered_categories": ["A0103", "A0207", "A0311"],
+      "note": "以穿戴与影像设备为主，三类目均覆盖"
+    },
+    {
+      "platform_id": "P-GOLIVE",
+      "name": "够乐直播电商平台",
+      "contact_unit": "够乐直播商业数据中心",
+      "api_version": "v5",
+      "status": "active",
+      "covered_categories": ["A0103", "A0207", "A0311"],
+      "note": "2026-08 接口由 v4 升级 v5，智能眼镜口径合并，以接口改版批次留痕"
+    },
+    {
+      "platform_id": "P-MALLCO",
+      "name": "贸驰综合商城",
+      "contact_unit": "贸驰统计信息部",
+      "api_version": "v2",
+      "status": "active",
+      "covered_categories": ["A0207", "A0311"],
+      "note": "未开通智能眼镜类目；心电监护仪家用监测口径偏宽"
+    }
+  ],
+  "accounts": [
+    {
+      "username": "u_aiwear",
+      "role": "platform",
+      "platform_id": "P-AIWEAR",
+      "display_name": "智携科技报送员"
+    },
+    {
+      "username": "u_golive",
+      "role": "platform",
+      "platform_id": "P-GOLIVE",
+      "display_name": "够乐直播报送员"
+    },
+    {
+      "username": "u_mallco",
+      "role": "platform",
+      "platform_id": "P-MALLCO",
+      "display_name": "贸驰商城报送员"
+    },
+    {
+      "username": "stat_chen",
+      "role": "statistician",
+      "display_name": "统计局消费处陈分析"
+    },
+    {
+      "username": "review_li",
+      "role": "caliber_reviewer",
+      "display_name": "口径审查李审查"
+    },
+    {
+      "username": "pub_wang",
+      "role": "publisher",
+      "display_name": "公开发布王发布"
+    }
+  ]
+}

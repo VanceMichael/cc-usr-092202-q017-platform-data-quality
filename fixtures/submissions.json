@@ -1,0 +1,573 @@
+{
+  "ledger_version": 1,
+  "currency_unit": "万元",
+  "submission_deadline_rule": "次月15日前报送上月数据",
+  "batches": [
+    {
+      "batch_id": "PL-AIWEAR-20260415-R",
+      "platform_id": "P-AIWEAR",
+      "report_period": "2026-04",
+      "event_type": "regular",
+      "submitted_at": "2026-05-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台自营及入驻商户全量成交店铺，估计占智能穿戴网络零售额约31%；覆盖A0103/A0207/A0311全部类目",
+        "category_dictionary": "CAT-2026H2；平台类目按字典逐条映射，映射表随批次存档",
+        "category_mappings": [
+          {"platform_path": "眼镜", "standard_code": "A0103"},
+          {"platform_path": "AR眼镜", "standard_code": "A0103"},
+          {"platform_path": "智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗器械/心电监护设备", "standard_code": "A0207"},
+          {"platform_path": "影像设备/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以支付订单号去重；连锁主体按营业执照归并店铺后再汇总",
+        "refund_treatment": "扣减当期实际发生的退货退款与售后退款；不含下单后未支付取消",
+        "price_caliber": "消费者实际支付价（含税，含平台券、商家券，不含运费）",
+        "quality_statement": "本批数据经平台内部复核，口径与上期一致，无重大遗漏"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "智能眼镜", "sales": 42100, "orders": 31200, "refunds": 1680, "period_start": "2026-04-01", "period_end": "2026-04-30"},
+        {"category_code": "A0207", "platform_path": "医疗器械/心电监护设备", "sales": 18600, "orders": 9800, "refunds": 620, "period_start": "2026-04-01", "period_end": "2026-04-30"},
+        {"category_code": "A0311", "platform_path": "影像设备/运动相机", "sales": 55200, "orders": 48600, "refunds": 2310, "period_start": "2026-04-01", "period_end": "2026-04-30"}
+      ],
+      "quality_declaration": {"declared_by": "智携科技数据报送组", "declared_at": "2026-05-15", "statement": "已复核，真实完整，口径无变化"}
+    },
+    {
+      "batch_id": "PL-AIWEAR-20260515-R",
+      "platform_id": "P-AIWEAR",
+      "report_period": "2026-05",
+      "event_type": "regular",
+      "submitted_at": "2026-06-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台自营及入驻商户全量成交店铺，估计占智能穿戴网络零售额约31%；覆盖A0103/A0207/A0311全部类目",
+        "category_dictionary": "CAT-2026H2；平台类目按字典逐条映射，映射表随批次存档",
+        "category_mappings": [
+          {"platform_path": "眼镜", "standard_code": "A0103"},
+          {"platform_path": "AR眼镜", "standard_code": "A0103"},
+          {"platform_path": "智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗器械/心电监护设备", "standard_code": "A0207"},
+          {"platform_path": "影像设备/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以支付订单号去重；连锁主体按营业执照归并店铺后再汇总",
+        "refund_treatment": "扣减当期实际发生的退货退款与售后退款；不含下单后未支付取消",
+        "price_caliber": "消费者实际支付价（含税，含平台券、商家券，不含运费）",
+        "quality_statement": "本批数据经平台内部复核，口径与上期一致，无重大遗漏"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "智能眼镜", "sales": 43800, "orders": 32600, "refunds": 1750, "period_start": "2026-05-01", "period_end": "2026-05-31"},
+        {"category_code": "A0207", "platform_path": "医疗器械/心电监护设备", "sales": 19200, "orders": 10100, "refunds": 650, "period_start": "2026-05-01", "period_end": "2026-05-31"},
+        {"category_code": "A0311", "platform_path": "影像设备/运动相机", "sales": 57600, "orders": 50800, "refunds": 2420, "period_start": "2026-05-01", "period_end": "2026-05-31"}
+      ],
+      "quality_declaration": {"declared_by": "智携科技数据报送组", "declared_at": "2026-06-15", "statement": "已复核，真实完整，口径无变化"}
+    },
+    {
+      "batch_id": "PL-AIWEAR-20260615-R",
+      "platform_id": "P-AIWEAR",
+      "report_period": "2026-06",
+      "event_type": "regular",
+      "submitted_at": "2026-07-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台自营及入驻商户全量成交店铺，估计占智能穿戴网络零售额约31%；覆盖A0103/A0207/A0311全部类目",
+        "category_dictionary": "CAT-2026H2；平台类目按字典逐条映射，映射表随批次存档",
+        "category_mappings": [
+          {"platform_path": "眼镜", "standard_code": "A0103"},
+          {"platform_path": "AR眼镜", "standard_code": "A0103"},
+          {"platform_path": "智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗器械/心电监护设备", "standard_code": "A0207"},
+          {"platform_path": "影像设备/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以支付订单号去重；连锁主体按营业执照归并店铺后再汇总",
+        "refund_treatment": "扣减当期实际发生的退货退款与售后退款；不含下单后未支付取消",
+        "price_caliber": "消费者实际支付价（含税，含平台券、商家券，不含运费）",
+        "quality_statement": "本批数据经平台内部复核，口径与上期一致，无重大遗漏"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "智能眼镜", "sales": 45200, "orders": 33500, "refunds": 1810, "period_start": "2026-06-01", "period_end": "2026-06-30"},
+        {"category_code": "A0207", "platform_path": "医疗器械/心电监护设备", "sales": 19800, "orders": 10500, "refunds": 670, "period_start": "2026-06-01", "period_end": "2026-06-30"},
+        {"category_code": "A0311", "platform_path": "影像设备/运动相机", "sales": 60100, "orders": 53100, "refunds": 2530, "period_start": "2026-06-01", "period_end": "2026-06-30"}
+      ],
+      "quality_declaration": {"declared_by": "智携科技数据报送组", "declared_at": "2026-07-15", "statement": "已复核，真实完整，口径无变化"}
+    },
+    {
+      "batch_id": "PL-AIWEAR-20260715-R",
+      "platform_id": "P-AIWEAR",
+      "report_period": "2026-07",
+      "event_type": "regular",
+      "submitted_at": "2026-08-14",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台自营及入驻商户全量成交店铺，估计占智能穿戴网络零售额约31%；覆盖A0103/A0207/A0311全部类目",
+        "category_dictionary": "CAT-2026H2；平台类目按字典逐条映射，映射表随批次存档",
+        "category_mappings": [
+          {"platform_path": "眼镜", "standard_code": "A0103"},
+          {"platform_path": "AR眼镜", "standard_code": "A0103"},
+          {"platform_path": "智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗器械/心电监护设备", "standard_code": "A0207"},
+          {"platform_path": "影像设备/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以支付订单号去重；连锁主体按营业执照归并店铺后再汇总",
+        "refund_treatment": "扣减当期实际发生的退货退款与售后退款；不含下单后未支付取消",
+        "price_caliber": "消费者实际支付价（含税，含平台券、商家券，不含运费）",
+        "quality_statement": "本批数据经平台内部复核，口径与上期一致，无重大遗漏"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "智能眼镜", "sales": 46900, "orders": 34800, "refunds": 1880, "period_start": "2026-07-01", "period_end": "2026-07-31"},
+        {"category_code": "A0207", "platform_path": "医疗器械/心电监护设备", "sales": 20500, "orders": 10900, "refunds": 700, "period_start": "2026-07-01", "period_end": "2026-07-31"},
+        {"category_code": "A0311", "platform_path": "影像设备/运动相机", "sales": 61800, "orders": 54600, "refunds": 2600, "period_start": "2026-07-01", "period_end": "2026-07-31"}
+      ],
+      "quality_declaration": {"declared_by": "智携科技数据报送组", "declared_at": "2026-08-14", "statement": "已复核，真实完整，口径无变化"}
+    },
+    {
+      "batch_id": "PL-AIWEAR-20260815-R",
+      "platform_id": "P-AIWEAR",
+      "report_period": "2026-08",
+      "event_type": "regular",
+      "submitted_at": "2026-09-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台自营及入驻商户全量成交店铺，估计占智能穿戴网络零售额约31%；覆盖A0103/A0207/A0311全部类目",
+        "category_dictionary": "CAT-2026H2；平台类目按字典逐条映射，映射表随批次存档",
+        "category_mappings": [
+          {"platform_path": "眼镜", "standard_code": "A0103"},
+          {"platform_path": "AR眼镜", "standard_code": "A0103"},
+          {"platform_path": "智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗器械/心电监护设备", "standard_code": "A0207"},
+          {"platform_path": "影像设备/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以支付订单号去重；连锁主体按营业执照归并店铺后再汇总",
+        "refund_treatment": "扣减当期实际发生的退货退款与售后退款；不含下单后未支付取消",
+        "price_caliber": "消费者实际支付价（含税，含平台券、商家券，不含运费）",
+        "quality_statement": "本批数据经平台内部复核，口径与上期一致，无重大遗漏"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "智能眼镜", "sales": 48600, "orders": 36100, "refunds": 1960, "period_start": "2026-08-01", "period_end": "2026-08-31"},
+        {"category_code": "A0207", "platform_path": "医疗器械/心电监护设备", "sales": 21300, "orders": 11300, "refunds": 720, "period_start": "2026-08-01", "period_end": "2026-08-31"},
+        {"category_code": "A0311", "platform_path": "影像设备/运动相机", "sales": 64300, "orders": 56900, "refunds": 2710, "period_start": "2026-08-01", "period_end": "2026-08-31"}
+      ],
+      "quality_declaration": {"declared_by": "智携科技数据报送组", "declared_at": "2026-09-15", "statement": "已复核，真实完整，口径无变化"}
+    },
+    {
+      "batch_id": "PL-AIWEAR-20260915-R",
+      "platform_id": "P-AIWEAR",
+      "report_period": "2026-09",
+      "event_type": "regular",
+      "submitted_at": "2026-10-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台自营及入驻商户全量成交店铺，估计占智能穿戴网络零售额约31%；覆盖A0103/A0207/A0311全部类目",
+        "category_dictionary": "CAT-2026H2；平台类目按字典逐条映射，映射表随批次存档",
+        "category_mappings": [
+          {"platform_path": "眼镜", "standard_code": "A0103"},
+          {"platform_path": "AR眼镜", "standard_code": "A0103"},
+          {"platform_path": "智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗器械/心电监护设备", "standard_code": "A0207"},
+          {"platform_path": "影像设备/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以支付订单号去重；连锁主体按营业执照归并店铺后再汇总",
+        "refund_treatment": "扣减当期实际发生的退货退款与售后退款；不含下单后未支付取消",
+        "price_caliber": "消费者实际支付价（含税，含平台券、商家券，不含运费）",
+        "quality_statement": "本批数据经平台内部复核，口径与上期一致，无重大遗漏"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "智能眼镜", "sales": 69800, "orders": 47200, "refunds": 2150, "period_start": "2026-09-01", "period_end": "2026-09-30"},
+        {"category_code": "A0207", "platform_path": "医疗器械/心电监护设备", "sales": 22100, "orders": 11700, "refunds": 750, "period_start": "2026-09-01", "period_end": "2026-09-30"},
+        {"category_code": "A0311", "platform_path": "影像设备/运动相机", "sales": 66900, "orders": 59200, "refunds": 2820, "period_start": "2026-09-01", "period_end": "2026-09-30"}
+      ],
+      "quality_declaration": {"declared_by": "智携科技数据报送组", "declared_at": "2026-10-15", "statement": "智能眼镜新品首发拉动，增幅较大，原因待核实"}
+    },
+    {
+      "batch_id": "PL-GOLIVE-20260416-R",
+      "platform_id": "P-GOLIVE",
+      "report_period": "2026-04",
+      "event_type": "regular",
+      "submitted_at": "2026-05-16",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台直播与短视频成交订单全量，估计占线上智能设备零售约24%；覆盖A0103/A0207/A0311",
+        "category_dictionary": "GOLIVE-DICT-v4（2026-08-19前有效）；智能眼镜与VR头显分列两个二级类目",
+        "category_mappings": [
+          {"platform_path": "数码/智能设备/智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗/仪器/监护仪", "standard_code": "A0207"},
+          {"platform_path": "数码/影像/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以子订单号去重，退货后补发不重复计",
+        "refund_treatment": "按退款成功时间冲减当期销售额",
+        "price_caliber": "实付金额（含税、含平台与商家补贴、不含运费）",
+        "quality_statement": "按v4接口与v4字典报送，已内部复核"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "数码/智能设备/智能眼镜", "sales": 38900, "orders": 29800, "refunds": 2010, "period_start": "2026-04-01", "period_end": "2026-04-30"},
+        {"category_code": "A0207", "platform_path": "医疗/仪器/监护仪", "sales": 15400, "orders": 8600, "refunds": 760, "period_start": "2026-04-01", "period_end": "2026-04-30"},
+        {"category_code": "A0311", "platform_path": "数码/影像/运动相机", "sales": 52600, "orders": 47200, "refunds": 2680, "period_start": "2026-04-01", "period_end": "2026-04-30"}
+      ],
+      "quality_declaration": {"declared_by": "够乐直播商业数据中心", "declared_at": "2026-05-16", "statement": "按v4口径报送，已复核"}
+    },
+    {
+      "batch_id": "PL-GOLIVE-20260515-R",
+      "platform_id": "P-GOLIVE",
+      "report_period": "2026-05",
+      "event_type": "regular",
+      "submitted_at": "2026-06-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台直播与短视频成交订单全量，估计占线上智能设备零售约24%；覆盖A0103/A0207/A0311",
+        "category_dictionary": "GOLIVE-DICT-v4（2026-08-19前有效）；智能眼镜与VR头显分列两个二级类目",
+        "category_mappings": [
+          {"platform_path": "数码/智能设备/智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗/仪器/监护仪", "standard_code": "A0207"},
+          {"platform_path": "数码/影像/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以子订单号去重，退货后补发不重复计",
+        "refund_treatment": "按退款成功时间冲减当期销售额",
+        "price_caliber": "实付金额（含税、含平台与商家补贴、不含运费）",
+        "quality_statement": "按v4接口与v4字典报送，已内部复核"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "数码/智能设备/智能眼镜", "sales": 40100, "orders": 30900, "refunds": 2080, "period_start": "2026-05-01", "period_end": "2026-05-31"},
+        {"category_code": "A0207", "platform_path": "医疗/仪器/监护仪", "sales": 16100, "orders": 9000, "refunds": 800, "period_start": "2026-05-01", "period_end": "2026-05-31"},
+        {"category_code": "A0311", "platform_path": "数码/影像/运动相机", "sales": 54900, "orders": 49300, "refunds": 2800, "period_start": "2026-05-01", "period_end": "2026-05-31"}
+      ],
+      "quality_declaration": {"declared_by": "够乐直播商业数据中心", "declared_at": "2026-06-15", "statement": "按v4口径报送，已复核"}
+    },
+    {
+      "batch_id": "PL-GOLIVE-20260615-R",
+      "platform_id": "P-GOLIVE",
+      "report_period": "2026-06",
+      "event_type": "regular",
+      "submitted_at": "2026-07-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台直播与短视频成交订单全量，估计占线上智能设备零售约24%；覆盖A0103/A0207/A0311",
+        "category_dictionary": "GOLIVE-DICT-v4（2026-08-19前有效）；智能眼镜与VR头显分列两个二级类目",
+        "category_mappings": [
+          {"platform_path": "数码/智能设备/智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗/仪器/监护仪", "standard_code": "A0207"},
+          {"platform_path": "数码/影像/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以子订单号去重，退货后补发不重复计",
+        "refund_treatment": "按退款成功时间冲减当期销售额",
+        "price_caliber": "实付金额（含税、含平台与商家补贴、不含运费）",
+        "quality_statement": "按v4接口与v4字典报送，已内部复核"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "数码/智能设备/智能眼镜", "sales": 41600, "orders": 32100, "refunds": 2160, "period_start": "2026-06-01", "period_end": "2026-06-30"},
+        {"category_code": "A0207", "platform_path": "医疗/仪器/监护仪", "sales": 16800, "orders": 9400, "refunds": 840, "period_start": "2026-06-01", "period_end": "2026-06-30"},
+        {"category_code": "A0311", "platform_path": "数码/影像/运动相机", "sales": 57800, "orders": 52100, "refunds": 2950, "period_start": "2026-06-01", "period_end": "2026-06-30"}
+      ],
+      "quality_declaration": {"declared_by": "够乐直播商业数据中心", "declared_at": "2026-07-15", "statement": "按v4口径报送，已复核"}
+    },
+    {
+      "batch_id": "PL-GOLIVE-20260715-R",
+      "platform_id": "P-GOLIVE",
+      "report_period": "2026-07",
+      "event_type": "regular",
+      "submitted_at": "2026-08-14",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台直播与短视频成交订单全量，估计占线上智能设备零售约24%；覆盖A0103/A0207/A0311",
+        "category_dictionary": "GOLIVE-DICT-v4（2026-08-19前有效）；智能眼镜与VR头显分列两个二级类目",
+        "category_mappings": [
+          {"platform_path": "数码/智能设备/智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "医疗/仪器/监护仪", "standard_code": "A0207"},
+          {"platform_path": "数码/影像/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以子订单号去重，退货后补发不重复计",
+        "refund_treatment": "按退款成功时间冲减当期销售额",
+        "price_caliber": "实付金额（含税、含平台与商家补贴、不含运费）",
+        "quality_statement": "按v4接口与v4字典报送，已内部复核"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "数码/智能设备/智能眼镜", "sales": 42900, "orders": 33400, "refunds": 2230, "period_start": "2026-07-01", "period_end": "2026-07-31"},
+        {"category_code": "A0207", "platform_path": "医疗/仪器/监护仪", "sales": 17400, "orders": 9700, "refunds": 870, "period_start": "2026-07-01", "period_end": "2026-07-31"},
+        {"category_code": "A0311", "platform_path": "数码/影像/运动相机", "sales": 59900, "orders": 54100, "refunds": 3060, "period_start": "2026-07-01", "period_end": "2026-07-31"}
+      ],
+      "quality_declaration": {"declared_by": "够乐直播商业数据中心", "declared_at": "2026-08-14", "statement": "按v4口径报送，已复核"}
+    },
+    {
+      "batch_id": "PL-GOLIVE-20260820-API",
+      "platform_id": "P-GOLIVE",
+      "report_period": "2026-08",
+      "event_type": "api_change",
+      "submitted_at": "2026-08-20",
+      "supersedes": null,
+      "reason": "数据接口由v4升级v5：原“智能眼镜”与“VR头显”两个二级类目合并为“智能穿戴眼镜”，本批按v5字典报送，与历史口径存在断点，历史数据尚未回溯重述",
+      "methodology": {
+        "sample_coverage": "平台直播与短视频成交订单全量，估计占线上智能设备零售约24%；覆盖A0103/A0207/A0311",
+        "category_dictionary": "GOLIVE-DICT-v5（2026-08-20起）；智能眼镜与VR头显合并为“智能穿戴眼镜”，口径较v4变宽，未做历史回溯",
+        "category_mappings": [
+          {"platform_path": "数码/智能设备/智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "数码/智能设备/VR头显", "standard_code": "A0103"},
+          {"platform_path": "医疗/仪器/监护仪", "standard_code": "A0207"},
+          {"platform_path": "数码/影像/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以子订单号去重，退货后补发不重复计",
+        "refund_treatment": "按退款成功时间冲减当期销售额",
+        "price_caliber": "实付金额（含税、含平台与商家补贴、不含运费）",
+        "quality_statement": "v5首批数据；A0103含VR头显，与2026-07及以前不可直接比较"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "数码/智能设备/智能眼镜", "sales": 51200, "orders": 40100, "refunds": 2660, "period_start": "2026-08-01", "period_end": "2026-08-31"},
+        {"category_code": "A0207", "platform_path": "医疗/仪器/监护仪", "sales": 18100, "orders": 10100, "refunds": 900, "period_start": "2026-08-01", "period_end": "2026-08-31"},
+        {"category_code": "A0311", "platform_path": "数码/影像/运动相机", "sales": 62100, "orders": 56200, "refunds": 3170, "period_start": "2026-08-01", "period_end": "2026-08-31"}
+      ],
+      "quality_declaration": {"declared_by": "够乐直播商业数据中心", "declared_at": "2026-08-20", "statement": "v5接口首批，类目合并已声明，历史未回溯"}
+    },
+    {
+      "batch_id": "PL-GOLIVE-20260915-R",
+      "platform_id": "P-GOLIVE",
+      "report_period": "2026-09",
+      "event_type": "regular",
+      "submitted_at": "2026-10-15",
+      "supersedes": null,
+      "reason": "常规月度报送（v5接口第二期）",
+      "methodology": {
+        "sample_coverage": "平台直播与短视频成交订单全量，估计占线上智能设备零售约24%；覆盖A0103/A0207/A0311",
+        "category_dictionary": "GOLIVE-DICT-v5（2026-08-20起）；智能眼镜与VR头显合并为“智能穿戴眼镜”，口径较v4变宽，未做历史回溯",
+        "category_mappings": [
+          {"platform_path": "数码/智能设备/智能眼镜", "standard_code": "A0103"},
+          {"platform_path": "数码/智能设备/VR头显", "standard_code": "A0103"},
+          {"platform_path": "医疗/仪器/监护仪", "standard_code": "A0207"},
+          {"platform_path": "数码/影像/运动相机", "standard_code": "A0311"}
+        ],
+        "dedup_method": "以子订单号去重，退货后补发不重复计",
+        "refund_treatment": "按退款成功时间冲减当期销售额",
+        "price_caliber": "实付金额（含税、含平台与商家补贴、不含运费）",
+        "quality_statement": "v5口径；A0311受秋季大促拉动增幅异常，原因待核实"
+      },
+      "observations": [
+        {"category_code": "A0103", "platform_path": "数码/智能设备/智能眼镜", "sales": 52600, "orders": 41200, "refunds": 2740, "period_start": "2026-09-01", "period_end": "2026-09-30"},
+        {"category_code": "A0207", "platform_path": "医疗/仪器/监护仪", "sales": 18800, "orders": 10500, "refunds": 940, "period_start": "2026-09-01", "period_end": "2026-09-30"},
+        {"category_code": "A0311", "platform_path": "数码/影像/运动相机", "sales": 81400, "orders": 73600, "refunds": 4210, "period_start": "2026-09-01", "period_end": "2026-09-30"}
+      ],
+      "quality_declaration": {"declared_by": "够乐直播商业数据中心", "declared_at": "2026-10-15", "statement": "v5口径；运动相机大促拉动，异常待核"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260414-R",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-04",
+      "event_type": "regular",
+      "submitted_at": "2026-05-14",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207，平台自查约含22%非心电设备",
+        "dedup_method": "以订单号+商品行去重",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "家用监测口径偏宽，积分抵扣未计销售额，与其他平台口径有差异"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 12300, "orders": 7100, "refunds": 520, "period_start": "2026-04-01", "period_end": "2026-04-30"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 41200, "orders": 38900, "refunds": 1840, "period_start": "2026-04-01", "period_end": "2026-04-30"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-05-14", "statement": "已复核；家用监测口径偏宽已声明"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260515-R",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-05",
+      "event_type": "regular",
+      "submitted_at": "2026-06-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207，平台自查约含22%非心电设备",
+        "dedup_method": "以订单号+商品行去重",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "家用监测口径偏宽，积分抵扣未计销售额，与其他平台口径差异已知"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 12800, "orders": 7400, "refunds": 540, "period_start": "2026-05-01", "period_end": "2026-05-31"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 42800, "orders": 40500, "refunds": 1920, "period_start": "2026-05-01", "period_end": "2026-05-31"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-06-15", "statement": "已复核；家用监测口径偏宽已声明"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260720-LATE",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-06",
+      "event_type": "late",
+      "submitted_at": "2026-07-20",
+      "supersedes": null,
+      "reason": "系统迁移导致超过次月15日报送时限，迟报5天",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207，平台自查约含22%非心电设备",
+        "dedup_method": "以订单号+商品行去重",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "迟报批次；口径无变化"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 13400, "orders": 7800, "refunds": 570, "period_start": "2026-06-01", "period_end": "2026-06-30"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 44500, "orders": 42100, "refunds": 1990, "period_start": "2026-06-01", "period_end": "2026-06-30"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-07-20", "statement": "迟报批次，数据已复核，口径无变化"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260814-R",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-07",
+      "event_type": "regular",
+      "submitted_at": "2026-08-14",
+      "supersedes": null,
+      "reason": "常规月度报送（初报，后被撤回）",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207",
+        "dedup_method": "以订单号+商品行去重",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "初报批次（后因店铺重复计入被撤回）"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 26800, "orders": 15200, "refunds": 590, "period_start": "2026-07-01", "period_end": "2026-07-31"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 46100, "orders": 43600, "refunds": 2070, "period_start": "2026-07-01", "period_end": "2026-07-31"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-08-14", "statement": "初报，后发现连锁店铺重复计入"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260822-WD",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-07",
+      "event_type": "withdrawal",
+      "submitted_at": "2026-08-22",
+      "supersedes": "PL-MALLCO-20260814-R",
+      "reason": "自查发现连锁主体店铺在新老两套店铺体系中被重复计入，A0207虚增约一倍，撤回2026-07初报批次",
+      "methodology": {
+        "sample_coverage": "撤回批次无观测数据",
+        "category_dictionary": "MALLCO-MAP-2026H2",
+        "category_mappings": [],
+        "dedup_method": "以订单号+商品行去重",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "撤回声明：PL-MALLCO-20260814-R 全部观测不得用于任何统计，等待历史回补批次替代"
+      },
+      "observations": [],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-08-22", "statement": "撤回2026-07初报，数据作废"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260828-BF",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-07",
+      "event_type": "backfill",
+      "submitted_at": "2026-08-28",
+      "supersedes": "PL-MALLCO-20260814-R",
+      "reason": "按统一社会信用代码归并连锁店铺后重新核算，历史回补2026-07数据，替代已撤回初报",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207，平台自查约含22%非心电设备；本批已按统一社会信用代码归并连锁店铺",
+        "dedup_method": "以订单号+商品行去重；连锁店铺按统一社会信用代码归并",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "回补批次，替代撤回批次；去重规则较初报修正，已与撤回批次一并留痕"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 14100, "orders": 8100, "refunds": 590, "period_start": "2026-07-01", "period_end": "2026-07-31"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 46100, "orders": 43600, "refunds": 2070, "period_start": "2026-07-01", "period_end": "2026-07-31"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-08-28", "statement": "回补数据已二次复核，去重口径修正已声明"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20260915-R",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-08",
+      "event_type": "regular",
+      "submitted_at": "2026-09-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207，平台自查约含22%非心电设备",
+        "dedup_method": "以订单号+商品行去重；连锁店铺按统一社会信用代码归并",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "家用监测口径偏宽，积分抵扣未计销售额，口径差异已知"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 14600, "orders": 8400, "refunds": 610, "period_start": "2026-08-01", "period_end": "2026-08-31"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 47800, "orders": 45200, "refunds": 2140, "period_start": "2026-08-01", "period_end": "2026-08-31"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-09-15", "statement": "已复核；口径无变化"}
+    },
+    {
+      "batch_id": "PL-MALLCO-20261015-R",
+      "platform_id": "P-MALLCO",
+      "report_period": "2026-09",
+      "event_type": "regular",
+      "submitted_at": "2026-10-15",
+      "supersedes": null,
+      "reason": "常规月度报送",
+      "methodology": {
+        "sample_coverage": "平台B2C频道成交店铺；未开通智能眼镜类目，仅覆盖A0207/A0311；占综合商城类目零售约18%",
+        "category_dictionary": "MALLCO-MAP-2026H2；家用监测口径含血压/血氧设备，存在跨类混入风险",
+        "category_mappings": [
+          {"platform_path": "健康-医疗器械-监护设备", "standard_code": "A0207"},
+          {"platform_path": "健康-医疗器械-家用监测", "standard_code": "A0207"},
+          {"platform_path": "数码影像-相机-运动相机", "standard_code": "A0311"}
+        ],
+        "mapping_basis": "“家用监测”无法按SKU拆出心电监护仪，整类计入A0207，平台自查约含22%非心电设备",
+        "dedup_method": "以订单号+商品行去重；连锁店铺按统一社会信用代码归并",
+        "refund_treatment": "退款冲减原发货月销售额（跨期退款回溯调整上期）",
+        "price_caliber": "成交价（含税、不含运费、不含平台积分抵扣部分）",
+        "quality_statement": "家用监测口径偏宽，积分抵扣未计销售额，口径差异已知"
+      },
+      "observations": [
+        {"category_code": "A0207", "platform_path": "健康-医疗器械-监护设备", "sales": 15200, "orders": 8700, "refunds": 640, "period_start": "2026-09-01", "period_end": "2026-09-30"},
+        {"category_code": "A0311", "platform_path": "数码影像-相机-运动相机", "sales": 49600, "orders": 46900, "refunds": 2220, "period_start": "2026-09-01", "period_end": "2026-09-30"}
+      ],
+      "quality_declaration": {"declared_by": "贸驰统计信息部", "declared_at": "2026-10-15", "statement": "已复核；口径无变化"}
+    }
+  ]
+}
