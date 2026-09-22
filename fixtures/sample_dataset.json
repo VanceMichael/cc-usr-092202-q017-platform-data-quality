@@ -1,0 +1,377 @@
+{
+  "categories": [
+    {"code": "G-SMART-GLASSES", "name": "智能眼镜", "domain": "goods",
+     "synonyms": ["AI眼镜", "AR眼镜"]},
+    {"code": "G-ECG-MONITOR", "name": "心电监护仪", "domain": "goods",
+     "synonyms": ["家用心电仪", "医疗级心电监护设备"]},
+    {"code": "G-ACTION-CAM", "name": "运动相机", "domain": "goods",
+     "synonyms": ["运动DV"]},
+    {"code": "G-WEARABLE", "name": "可穿戴设备", "domain": "goods"},
+    {"code": "G-DIGITAL", "name": "数码产品", "domain": "goods"},
+    {"code": "S-HEALTH", "name": "健康监测服务", "domain": "service"}
+  ],
+  "platforms": [
+    {"platform_id": "P-YUNFAN", "name": "云帆数据（示例平台）"},
+    {"platform_id": "P-XINGLIAN", "name": "星链电商（示例平台）"},
+    {"platform_id": "P-CHAODIAN", "name": "潮电科技（示例平台）"}
+  ],
+  "batches": [
+    {
+      "batch_id": "B-YF-202606",
+      "platform_id": "P-YUNFAN", "period": "2026-06", "kind": "scheduled",
+      "due_at": "2026-07-10", "received_at": "2026-07-08",
+      "methodology": {
+        "coverage_note": "平台全量商户分层抽样，覆盖线上主要渠道",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按订单号+商品SKU跨店铺去重",
+        "refund_handling": "退款订单于发生月冲减销售额",
+        "price_basis": "实际成交价，不含运费",
+        "promo_basis": "满减与平台券计入成交价，商家券不计入",
+        "quality_statement": "本单位承诺所报数据经内部复核，口径与上期一致。",
+        "expected_share": 0.55,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "家用心电仪": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能手表手环": "G-WEARABLE",
+          "数码配件": "G-DIGITAL",
+          "健康咨询服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "YF-0601", "platform_category": "智能眼镜", "category": "G-SMART-GLASSES", "sales_index": 105.2, "yoy_growth": 0.10, "promo_share": 0.18},
+        {"obs_id": "YF-0602", "platform_category": "家用心电仪", "category": "G-ECG-MONITOR", "sales_index": 102.4, "yoy_growth": 0.07, "promo_share": 0.05},
+        {"obs_id": "YF-0603", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 108.1, "yoy_growth": 0.05, "promo_share": 0.22},
+        {"obs_id": "YF-0604", "platform_category": "智能手表手环", "category": "G-WEARABLE", "sales_index": 103.0, "yoy_growth": 0.04, "promo_share": 0.15},
+        {"obs_id": "YF-0605", "platform_category": "数码配件", "category": "G-DIGITAL", "sales_index": 101.7, "yoy_growth": 0.03, "promo_share": 0.12},
+        {"obs_id": "YF-0606", "platform_category": "健康咨询服务", "category": "S-HEALTH", "sales_index": 99.8, "yoy_growth": 0.06, "promo_share": 0.0}
+      ]
+    },
+    {
+      "batch_id": "B-YF-202607",
+      "platform_id": "P-YUNFAN", "period": "2026-07", "kind": "scheduled",
+      "due_at": "2026-08-10", "received_at": "2026-08-07",
+      "methodology": {
+        "coverage_note": "平台全量商户分层抽样，覆盖线上主要渠道",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按订单号+商品SKU跨店铺去重",
+        "refund_handling": "退款订单于发生月冲减销售额",
+        "price_basis": "实际成交价，不含运费",
+        "promo_basis": "满减与平台券计入成交价，商家券不计入",
+        "quality_statement": "本单位承诺所报数据经内部复核，口径与上期一致。",
+        "expected_share": 0.55,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "家用心电仪": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能手表手环": "G-WEARABLE",
+          "数码配件": "G-DIGITAL",
+          "健康咨询服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "YF-0701", "platform_category": "智能眼镜", "category": "G-SMART-GLASSES", "sales_index": 106.0, "yoy_growth": 0.11, "promo_share": 0.17},
+        {"obs_id": "YF-0702", "platform_category": "家用心电仪", "category": "G-ECG-MONITOR", "sales_index": 103.1, "yoy_growth": 0.08, "promo_share": 0.05},
+        {"obs_id": "YF-0703", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 109.4, "yoy_growth": 0.06, "promo_share": 0.21},
+        {"obs_id": "YF-0704", "platform_category": "智能手表手环", "category": "G-WEARABLE", "sales_index": 104.2, "yoy_growth": 0.05, "promo_share": 0.14},
+        {"obs_id": "YF-0705", "platform_category": "数码配件", "category": "G-DIGITAL", "sales_index": 102.3, "yoy_growth": 0.04, "promo_share": 0.11},
+        {"obs_id": "YF-0706", "platform_category": "健康咨询服务", "category": "S-HEALTH", "sales_index": 100.5, "yoy_growth": 0.07, "promo_share": 0.0}
+      ]
+    },
+    {
+      "batch_id": "B-YF-202608",
+      "platform_id": "P-YUNFAN", "period": "2026-08", "kind": "scheduled",
+      "due_at": "2026-09-10", "received_at": "2026-09-05",
+      "methodology": {
+        "coverage_note": "平台全量商户分层抽样，覆盖线上主要渠道",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按订单号+商品SKU跨店铺去重",
+        "refund_handling": "退款订单于发生月冲减销售额",
+        "price_basis": "实际成交价，不含运费",
+        "promo_basis": "满减与平台券计入成交价，商家券不计入",
+        "quality_statement": "本单位承诺所报数据经内部复核，口径与上期一致。",
+        "expected_share": 0.55,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "家用心电仪": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能手表手环": "G-WEARABLE",
+          "数码配件": "G-DIGITAL",
+          "健康咨询服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "YF-0801", "platform_category": "智能眼镜", "category": "G-SMART-GLASSES", "sales_index": 118.6, "yoy_growth": 0.35, "promo_share": 0.19},
+        {"obs_id": "YF-0802", "platform_category": "家用心电仪", "category": "G-ECG-MONITOR", "sales_index": 104.0, "yoy_growth": 0.08, "promo_share": 0.06},
+        {"obs_id": "YF-0803", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 111.2, "yoy_growth": 0.07, "promo_share": 0.2},
+        {"obs_id": "YF-0804", "platform_category": "智能手表手环", "category": "G-WEARABLE", "sales_index": 105.1, "yoy_growth": 0.05, "promo_share": 0.15},
+        {"obs_id": "YF-0805", "platform_category": "数码配件", "category": "G-DIGITAL", "sales_index": 103.4, "yoy_growth": 0.04, "promo_share": 0.12},
+        {"obs_id": "YF-0806", "platform_category": "健康咨询服务", "category": "S-HEALTH", "sales_index": 101.3, "yoy_growth": 0.07, "promo_share": 0.0}
+      ]
+    },
+
+    {
+      "batch_id": "B-XL-202605-BF",
+      "platform_id": "P-XINGLIAN", "period": "2026-05", "kind": "backfill",
+      "due_at": "2026-06-10", "received_at": "2026-06-18",
+      "note": "系统迁移后对5月历史数据的回补，仅形成新批次，不改写原报送",
+      "methodology": {
+        "coverage_note": "平台自营与第三方店铺全量汇总",
+        "dictionary_version": "dict-v1",
+        "dedup_method": "按支付订单号去重",
+        "refund_handling": "退款于结算月净额扣除",
+        "price_basis": "商品挂牌价扣减平台补贴",
+        "promo_basis": "促销补贴不计入成交价",
+        "quality_statement": "回补数据已与财务结算账核对。",
+        "expected_share": 0.52,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "便携心电设备": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能穿戴": "G-WEARABLE",
+          "数码整机": "G-DIGITAL",
+          "健康管理服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "XL-0501", "platform_category": "智能眼镜", "category": "G-SMART-GLASSES", "sales_index": 104.0, "yoy_growth": 0.09},
+        {"obs_id": "XL-0502", "platform_category": "便携心电设备", "category": "G-ECG-MONITOR", "sales_index": 101.2, "yoy_growth": 0.07},
+        {"obs_id": "XL-0503", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 105.6, "yoy_growth": 0.04},
+        {"obs_id": "XL-0504", "platform_category": "智能穿戴", "category": "G-WEARABLE", "sales_index": 101.8, "yoy_growth": 0.03},
+        {"obs_id": "XL-0505", "platform_category": "数码整机", "category": "G-DIGITAL", "sales_index": 100.4, "yoy_growth": 0.02},
+        {"obs_id": "XL-0506", "platform_category": "健康管理服务", "category": "S-HEALTH", "sales_index": 98.9, "yoy_growth": 0.05}
+      ]
+    },
+    {
+      "batch_id": "B-XL-202606",
+      "platform_id": "P-XINGLIAN", "period": "2026-06", "kind": "scheduled",
+      "due_at": "2026-07-10", "received_at": "2026-07-09",
+      "methodology": {
+        "coverage_note": "平台自营与第三方店铺全量汇总",
+        "dictionary_version": "dict-v1",
+        "dedup_method": "按支付订单号去重",
+        "refund_handling": "退款于结算月净额扣除",
+        "price_basis": "商品挂牌价扣减平台补贴",
+        "promo_basis": "促销补贴不计入成交价",
+        "quality_statement": "本单位对所报数据真实性负责。",
+        "expected_share": 0.52,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "便携心电设备": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能穿戴": "G-WEARABLE",
+          "数码整机": "G-DIGITAL",
+          "健康管理服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "XL-0601", "platform_category": "AI眼镜", "category": "G-SMART-GLASSES", "sales_index": 107.5, "yoy_growth": 0.09},
+        {"obs_id": "XL-0602", "platform_category": "便携心电设备", "category": "G-ECG-MONITOR", "sales_index": 102.8, "yoy_growth": 0.08},
+        {"obs_id": "XL-0603", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 107.9, "yoy_growth": 0.05},
+        {"obs_id": "XL-0604", "platform_category": "智能穿戴", "category": "G-WEARABLE", "sales_index": 102.5, "yoy_growth": 0.04},
+        {"obs_id": "XL-0605", "platform_category": "数码整机", "category": "G-DIGITAL", "sales_index": 101.1, "yoy_growth": 0.03},
+        {"obs_id": "XL-0606", "platform_category": "健康管理服务", "category": "S-HEALTH", "sales_index": 99.6, "yoy_growth": 0.06}
+      ]
+    },
+    {
+      "batch_id": "B-XL-202607",
+      "platform_id": "P-XINGLIAN", "period": "2026-07", "kind": "late",
+      "due_at": "2026-08-10", "received_at": "2026-08-16",
+      "note": "报送人员请假导致迟报；本期同步启用新类目字典并调整促销口径",
+      "methodology": {
+        "coverage_note": "平台自营与第三方店铺全量汇总",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按支付订单号去重",
+        "refund_handling": "退款于结算月净额扣除",
+        "price_basis": "商品挂牌价扣减平台补贴",
+        "promo_basis": "平台券与满减计入成交价",
+        "quality_statement": "本单位对所报数据真实性负责；本期促销口径调整见说明。",
+        "expected_share": 0.52,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "AI眼镜": "G-SMART-GLASSES",
+          "便携心电设备": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能穿戴": "G-WEARABLE",
+          "数码整机": "G-DIGITAL",
+          "健康管理服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "XL-0701", "platform_category": "AI眼镜", "category": "G-SMART-GLASSES", "sales_index": 108.2, "yoy_growth": 0.10},
+        {"obs_id": "XL-0702", "platform_category": "便携心电设备", "category": "G-ECG-MONITOR", "sales_index": 103.0, "yoy_growth": 0.08},
+        {"obs_id": "XL-0703", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 108.7, "yoy_growth": 0.06},
+        {"obs_id": "XL-0704", "platform_category": "智能穿戴", "category": "G-WEARABLE", "sales_index": 103.4, "yoy_growth": 0.05},
+        {"obs_id": "XL-0705", "platform_category": "数码整机", "category": "G-DIGITAL", "sales_index": 102.0, "yoy_growth": 0.05},
+        {"obs_id": "XL-0706", "platform_category": "健康管理服务", "category": "S-HEALTH", "sales_index": 100.8, "yoy_growth": 0.08}
+      ]
+    },
+    {
+      "batch_id": "B-XL-202608-OLD",
+      "platform_id": "P-XINGLIAN", "period": "2026-08", "kind": "scheduled",
+      "due_at": "2026-09-10", "received_at": "2026-09-03",
+      "note": "旧接口字段下线前的末次报送，后被接口改版批次替代",
+      "methodology": {
+        "coverage_note": "平台自营与第三方店铺全量汇总",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按支付订单号去重",
+        "refund_handling": "",
+        "price_basis": "商品挂牌价扣减平台补贴",
+        "promo_basis": "平台券与满减计入成交价",
+        "quality_statement": "本单位对所报数据真实性负责。",
+        "expected_share": 0.52,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "AI眼镜": "G-SMART-GLASSES",
+          "便携心电设备": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能穿戴": "G-WEARABLE",
+          "数码整机": "G-DIGITAL",
+          "健康管理服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "XL-0891", "platform_category": "AI眼镜", "category": "G-SMART-GLASSES", "sales_index": 109.0, "yoy_growth": 0.10},
+        {"obs_id": "XL-0892", "platform_category": "便携心电设备", "category": "G-ECG-MONITOR", "sales_index": 105.0, "yoy_growth": 0.12},
+        {"obs_id": "XL-0893", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 109.0, "yoy_growth": 0.06},
+        {"obs_id": "XL-0894", "platform_category": "智能穿戴", "category": "G-WEARABLE", "sales_index": 103.0, "yoy_growth": 0.05},
+        {"obs_id": "XL-0895", "platform_category": "数码整机", "category": "G-DIGITAL", "sales_index": 102.0, "yoy_growth": 0.05},
+        {"obs_id": "XL-0896", "platform_category": "健康管理服务", "category": "S-HEALTH", "sales_index": 101.0, "yoy_growth": 0.08}
+      ]
+    },
+    {
+      "batch_id": "B-XL-202608-REV",
+      "platform_id": "P-XINGLIAN", "period": "2026-08", "kind": "api_revision",
+      "due_at": "2026-09-10", "received_at": "2026-09-12",
+      "supersedes": "B-XL-202608-OLD",
+      "note": "订单接口v2改版后重新报送；补全退款处理说明，数据按新接口重算",
+      "methodology": {
+        "coverage_note": "平台自营与第三方店铺全量汇总",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按支付订单号去重",
+        "refund_handling": "退款于结算月净额扣除",
+        "price_basis": "商品挂牌价扣减平台补贴",
+        "promo_basis": "平台券与满减计入成交价",
+        "quality_statement": "本单位对所报数据真实性负责；本批按订单接口v2重新生成。",
+        "expected_share": 0.52,
+        "category_map": {
+          "智能眼镜": "G-SMART-GLASSES",
+          "AI眼镜": "G-SMART-GLASSES",
+          "便携心电设备": "G-ECG-MONITOR",
+          "运动相机": "G-ACTION-CAM",
+          "智能穿戴": "G-WEARABLE",
+          "数码整机": "G-DIGITAL",
+          "健康管理服务": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "XL-0801", "platform_category": "AI眼镜", "category": "G-SMART-GLASSES", "sales_index": 115.3, "yoy_growth": 0.10},
+        {"obs_id": "XL-0802", "platform_category": "便携心电设备", "category": "G-ECG-MONITOR", "sales_index": 112.7, "yoy_growth": 0.34},
+        {"obs_id": "XL-0803", "platform_category": "运动相机", "category": "G-ACTION-CAM", "sales_index": 109.2, "yoy_growth": 0.06},
+        {"obs_id": "XL-0804", "platform_category": "智能穿戴", "category": "G-WEARABLE", "sales_index": 103.8, "yoy_growth": 0.05},
+        {"obs_id": "XL-0805", "platform_category": "数码整机", "category": "G-DIGITAL", "sales_index": 102.6, "yoy_growth": 0.05},
+        {"obs_id": "XL-0806", "platform_category": "健康管理服务", "category": "S-HEALTH", "sales_index": 101.4, "yoy_growth": 0.08}
+      ]
+    },
+
+    {
+      "batch_id": "B-CD-202606",
+      "platform_id": "P-CHAODIAN", "period": "2026-06", "kind": "scheduled",
+      "due_at": "2026-07-10", "received_at": "2026-07-09",
+      "methodology": {
+        "coverage_note": "仅覆盖平台头部签约品牌门店，样本范围有限",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按收货人手机号+SKU月度去重",
+        "refund_handling": "退货退款按月冲减",
+        "price_basis": "用户实付金额",
+        "promo_basis": "所有优惠均在实付中体现",
+        "quality_statement": "样本为头部品牌，代表性有限，使用时请注意覆盖范围。",
+        "expected_share": 0.25,
+        "category_map": {
+          "AR眼镜": "G-SMART-GLASSES",
+          "医疗级心电监护": "G-ECG-MONITOR",
+          "运动DV": "G-ACTION-CAM",
+          "穿戴设备": "G-WEARABLE",
+          "3C数码": "G-DIGITAL",
+          "在线问诊": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "CD-0601", "platform_category": "AR眼镜", "category": "G-SMART-GLASSES", "sales_index": 106.1, "yoy_growth": 0.10},
+        {"obs_id": "CD-0602", "platform_category": "医疗级心电监护", "category": "G-ECG-MONITOR", "sales_index": 103.5, "yoy_growth": 0.09},
+        {"obs_id": "CD-0603", "platform_category": "运动DV", "category": "G-ACTION-CAM", "sales_index": 109.0, "yoy_growth": 0.07},
+        {"obs_id": "CD-0604", "platform_category": "穿戴设备", "category": "G-WEARABLE", "sales_index": 104.0, "yoy_growth": 0.05},
+        {"obs_id": "CD-0605", "platform_category": "3C数码", "category": "G-DIGITAL", "sales_index": 102.2, "yoy_growth": 0.04},
+        {"obs_id": "CD-0606", "platform_category": "在线问诊", "category": "S-HEALTH", "sales_index": 100.1, "yoy_growth": 0.07}
+      ]
+    },
+    {
+      "batch_id": "B-CD-202607",
+      "platform_id": "P-CHAODIAN", "period": "2026-07", "kind": "scheduled",
+      "due_at": "2026-08-10", "received_at": "2026-08-08",
+      "methodology": {
+        "coverage_note": "仅覆盖平台头部签约品牌门店，样本范围有限",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按收货人手机号+SKU月度去重",
+        "refund_handling": "退货退款按月冲减",
+        "price_basis": "用户实付金额",
+        "promo_basis": "所有优惠均在实付中体现",
+        "quality_statement": "样本为头部品牌，代表性有限，使用时请注意覆盖范围。",
+        "expected_share": 0.28,
+        "category_map": {
+          "AR眼镜": "G-SMART-GLASSES",
+          "医疗级心电监护": "G-ECG-MONITOR",
+          "运动DV": "G-ACTION-CAM",
+          "穿戴设备": "G-WEARABLE",
+          "3C数码": "G-DIGITAL",
+          "在线问诊": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "CD-0701", "platform_category": "AR眼镜", "category": "G-SMART-GLASSES", "sales_index": 107.0, "yoy_growth": 0.11},
+        {"obs_id": "CD-0702", "platform_category": "医疗级心电监护", "category": "G-ECG-MONITOR", "sales_index": 104.2, "yoy_growth": 0.10},
+        {"obs_id": "CD-0703", "platform_category": "运动DV", "category": "G-ACTION-CAM", "sales_index": 110.1, "yoy_growth": 0.08},
+        {"obs_id": "CD-0704", "platform_category": "穿戴设备", "category": "G-WEARABLE", "sales_index": 104.8, "yoy_growth": 0.06},
+        {"obs_id": "CD-0705", "platform_category": "3C数码", "category": "G-DIGITAL", "sales_index": 103.0, "yoy_growth": 0.05},
+        {"obs_id": "CD-0706", "platform_category": "在线问诊", "category": "S-HEALTH", "sales_index": 100.9, "yoy_growth": 0.08}
+      ]
+    },
+    {
+      "batch_id": "B-CD-202607-WD",
+      "platform_id": "P-CHAODIAN", "period": "2026-07", "kind": "withdrawal",
+      "due_at": "2026-08-10", "received_at": "2026-08-20",
+      "note": "平台发现7月结算口径错误，主动撤回该期报送"
+    },
+    {
+      "batch_id": "B-CD-202608",
+      "platform_id": "P-CHAODIAN", "period": "2026-08", "kind": "scheduled",
+      "due_at": "2026-09-10", "received_at": "2026-09-06",
+      "methodology": {
+        "coverage_note": "已扩展至全量签约品牌，覆盖主要线上渠道",
+        "dictionary_version": "dict-v3",
+        "dedup_method": "按收货人手机号+SKU月度去重",
+        "refund_handling": "退货退款按月冲减",
+        "price_basis": "用户实付金额",
+        "promo_basis": "所有优惠均在实付中体现",
+        "quality_statement": "覆盖范围已扩展并经内部复核；7月批次撤回原因已查明。",
+        "expected_share": 0.5,
+        "category_map": {
+          "AR眼镜": "G-SMART-GLASSES",
+          "医疗级心电监护": "G-ECG-MONITOR",
+          "运动DV": "G-ACTION-CAM",
+          "穿戴设备": "G-WEARABLE",
+          "3C数码": "G-DIGITAL",
+          "在线问诊": "S-HEALTH"
+        }
+      },
+      "observations": [
+        {"obs_id": "CD-0801", "platform_category": "AR眼镜", "category": "G-SMART-GLASSES", "sales_index": 107.8, "yoy_growth": 0.11},
+        {"obs_id": "CD-0802", "platform_category": "医疗级心电监护", "category": "G-ECG-MONITOR", "sales_index": 104.6, "yoy_growth": 0.09},
+        {"obs_id": "CD-0803", "platform_category": "运动DV", "category": "G-ACTION-CAM", "sales_index": 110.8, "yoy_growth": 0.08},
+        {"obs_id": "CD-0804", "platform_category": "穿戴设备", "category": "G-WEARABLE", "sales_index": 105.2, "yoy_growth": 0.06},
+        {"obs_id": "CD-0805", "platform_category": "3C数码", "category": "G-DIGITAL", "sales_index": 103.1, "yoy_growth": 0.04},
+        {"obs_id": "CD-0806", "platform_category": "在线问诊", "category": "S-HEALTH", "sales_index": 101.0, "yoy_growth": 0.07}
+      ]
+    }
+  ]
+}
